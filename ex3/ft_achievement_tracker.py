@@ -21,7 +21,7 @@ ACHIEVEMENTS = [
 
 
 def gen_player_achievements() -> set:
-    count = random.randint(1, len(ACHIEVEMENTS))
+    count = random.randint(5, len(ACHIEVEMENTS))
     return set(random.sample(ACHIEVEMENTS, count))
 
 
